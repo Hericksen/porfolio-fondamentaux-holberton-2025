@@ -1,0 +1,35 @@
+erDiagram
+    users {
+        UUID id PK
+        VARCHAR email
+        TEXT password_hash
+        VARCHAR username
+        INT xp
+        INT level
+        JSON avatar
+        TIMESTAMP created_at
+        TIMESTAMP last_login
+    }
+
+    quests {
+        UUID id PK
+        VARCHAR title
+        TEXT description
+        VARCHAR type
+        INT xp_reward
+        TIMESTAMP due_date
+        UUID user_id FK
+        BOOLEAN is_completed
+    }
+
+    achievements {
+        UUID id PK
+        VARCHAR title
+        TEXT description
+        TEXT condition
+        UUID user_id FK
+        TIMESTAMP unlocked_at
+    }
+
+    users ||--o{ quests : has
+    users ||--o{ achievements : earns
