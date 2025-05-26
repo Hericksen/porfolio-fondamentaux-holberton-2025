@@ -1,0 +1,12 @@
+sequenceDiagram
+    participant User
+    participant QuestCard (React)
+    participant QuestController (Node.js/Express)
+    participant PostgreSQL
+
+    User->>QuestCard: Tap "Complete Quest"
+    QuestCard->>QuestController: POST /quests/:id/complete
+    QuestController->>PostgreSQL: UPDATE quests SET is_completed = true WHERE id = ?
+    QuestController->>PostgreSQL: UPDATE users SET xp = xp + xp_reward WHERE id = ?
+    QuestController-->>QuestCard: Return success + updated XP
+    QuestCard-->>User: Show updated XP and quest status

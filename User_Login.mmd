@@ -1,0 +1,19 @@
+sequenceDiagram
+    participant User
+    participant LoginScreen (React)
+    participant AuthController (Node.js/Express)
+    participant PostgreSQL
+
+    User->>LoginScreen: Enter email/password
+    LoginScreen->>AuthController: POST /login
+    AuthController->>PostgreSQL: SELECT * FROM users WHERE email = ?
+    PostgreSQL-->>AuthController: Return user + passwordHash
+    AuthController->>AuthController: Verify password
+    alt Password valid
+        AuthController->>PostgreSQL: UPDATE users SET last_login = NOW()
+        AuthController-->>LoginScreen: Return user data + token
+        LoginScreen-->>User: Login successful
+    else Invalid password
+        AuthController-->>LoginScreen: Return error
+        LoginScreen-->>User: Show error message
+    end

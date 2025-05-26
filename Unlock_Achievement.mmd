@@ -1,0 +1,13 @@
+sequenceDiagram
+    participant System (Background Task)
+    participant AchievementService (Node.js)
+    participant PostgreSQL
+    participant Dashboard (React)
+
+    System->>AchievementService: Trigger condition check (e.g., XP updated)
+    AchievementService->>PostgreSQL: SELECT * FROM achievements WHERE condition is met AND unlocked_at IS NULL
+    loop For each achievement
+        AchievementService->>PostgreSQL: UPDATE achievements SET unlocked_at = NOW() WHERE id = ?
+    end
+    AchievementService-->>Dashboard: Push updated achievements (WebSocket or fetch)
+    Dashboard-->>User: Display unlocked achievements
