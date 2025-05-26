@@ -1,6 +1,3 @@
-
-# 🔁 Section 5 – SCM and QA Strategies
-
 ## 🧬 SCM Strategy (Software Configuration Management)
 
 **📁 Tool used:** Git (via GitHub)
