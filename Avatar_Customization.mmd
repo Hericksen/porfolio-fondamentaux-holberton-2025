@@ -1,0 +1,13 @@
+sequenceDiagram
+    participant User
+    participant AvatarViewer (React)
+    participant UserController (Node.js/Express)
+    participant PostgreSQL
+
+    User->>AvatarViewer: Open avatar customization
+    User->>AvatarViewer: Select new avatar options
+    AvatarViewer->>UserController: PUT /users/:id/avatar (with JSON payload)
+    UserController->>PostgreSQL: UPDATE users SET avatar = ? WHERE id = ?
+    PostgreSQL-->>UserController: Confirmation
+    UserController-->>AvatarViewer: Success response
+    AvatarViewer-->>User: Show updated avatar

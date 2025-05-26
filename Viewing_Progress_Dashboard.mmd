@@ -1,0 +1,12 @@
+sequenceDiagram
+    participant User
+    participant Dashboard (React)
+    participant ProgressController (Node.js/Express)
+    participant PostgreSQL
+
+    User->>Dashboard: Open app / dashboard
+    Dashboard->>ProgressController: GET /users/:id/progress
+    ProgressController->>PostgreSQL: SELECT xp, level, completed_quests FROM users WHERE id = ?
+    PostgreSQL-->>ProgressController: Return stats
+    ProgressController-->>Dashboard: JSON response with progress
+    Dashboard-->>User: Display XP, level, progress chart
