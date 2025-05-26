@@ -1,0 +1,15 @@
+sequenceDiagram
+    participant CronJob
+    participant QuestService (Node.js)
+    participant PostgreSQL
+    participant Users (looped)
+
+    CronJob->>QuestService: Trigger daily quest assignment (midnight)
+    QuestService->>PostgreSQL: SELECT id FROM users
+    PostgreSQL-->>QuestService: Return list of user IDs
+
+    loop For each user
+        QuestService->>PostgreSQL: INSERT INTO quests (...) VALUES (..., user_id)
+    end
+
+    QuestService-->>CronJob: Daily quests assigned
