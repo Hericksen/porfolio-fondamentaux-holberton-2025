@@ -1,0 +1,40 @@
+classDiagram
+    class User {
+        UUID id
+        string email
+        string passwordHash
+        string username
+        int xp
+        int level
+        JSON avatar
+        register()
+        login()
+        updateProfile()
+        gainXP(xp)
+    }
+
+    class Quest {
+        UUID id
+        string title
+        string description
+        string type
+        int xpReward
+        timestamp dueDate
+        UUID userId
+        assignToUser(userId)
+        completeQuest()
+    }
+
+    class Achievement {
+        UUID id
+        string title
+        string description
+        string condition
+        UUID userId
+        timestamp unlockedAt
+        checkConditions()
+        unlock()
+    }
+
+    User "1" -- "0..*" Quest : has
+    User "1" -- "0..*" Achievement : earns
