@@ -332,7 +332,7 @@ To offer an engaging fitness experience through gamification elements such as qu
 
 ## Mockups 
 
-![Alt Text](PixelPump.png)
+![Alt Text](user_stories_and_mockups/PixelPump.png)
 
 ## API Documentation
 
