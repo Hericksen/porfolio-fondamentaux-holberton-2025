@@ -16,13 +16,13 @@ Welcome to **PixelPump**, a gamified fitness app where users complete daily and 
 
 ---
 
-## 🚀 Objective
+## Objective
 
 To offer an engaging fitness experience through gamification elements such as quests, levels, badges, and avatar customization.
 
 ---
 
-## ✅ Prioritized User Stories (MoSCoW)
+## Prioritized User Stories (MoSCoW)
 
 ### 🎯 Must Have
 
@@ -51,7 +51,7 @@ To offer an engaging fitness experience through gamification elements such as qu
 
 ---
 
-## 📡 API Documentation
+## API Documentation
 
 ### 🌐 External
 
@@ -83,7 +83,7 @@ To offer an engaging fitness experience through gamification elements such as qu
 
 ---
 
-## 💻 Front-End Components
+## Front-End Components
 
 | Component           | Description                                       |
 |---------------------|---------------------------------------------------|
@@ -96,14 +96,14 @@ To offer an engaging fitness experience through gamification elements such as qu
 | `AchievementDisplay`| Displays unlocked badges                          |
 | `Settings`          | User preferences and profile updates              |
 
-### 🔄 Component Interactions
+### Component Interactions
 
 - `Dashboard` connects: `QuestList`, `ProgressTracker`, `AchievementDisplay`, `AvatarViewer`
 - `Settings` controls updates that reflect in `Dashboard`
 
 ---
 
-## 📊 UML / Database Diagrams
+## UML / Database Diagrams
 
 ### 📦 Class Diagram (web front-end)
 
@@ -194,7 +194,7 @@ erDiagram
 
 ---
 
-## 🧬 SCM and QA Strategy
+## SCM and QA Strategy
 
 ### 🔀 Git Flow
 
@@ -223,7 +223,7 @@ erDiagram
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **Back-End**: Node.js + Express
 - **Database**: PostgreSQL (via Supabase or similar)
