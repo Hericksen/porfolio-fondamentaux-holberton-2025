@@ -6,13 +6,13 @@ Welcome to **PixelPump**, a gamified fitness app where users complete daily and 
 
 ## 📌 Table of Contents
 
-- [🚀 Objective](#objective)
-- [✅ Prioritized User Stories (MoSCoW)](#prioritized-user-stories-moscow)
-- [📡 API Documentation](#api-documentation)
-- [💻 Front-End Components](#front-end-components)
-- [📊 UML / Database Diagrams](#uml--database-diagrams)
-- [🧬 SCM and QA Strategy](#scm-and-qa-strategy)
-- [📦 Tech Stack](#tech-stack)
+- [🚀 Objective](#🚀-objective)
+- [✅ Prioritized User Stories (MoSCoW)](#✅-prioritized-user-stories-moscow)
+- [📡 API Documentation](#📡-api-documentation)
+- [💻 Front-End Components](#💻-front-end-components)
+- [📊 UML / Database Diagrams](#📊-uml--database-diagrams)
+- [🧬 SCM and QA Strategy](#🧬-scm-and-qa-strategy)
+- [📦 Tech Stack](#📦-tech-stack)
 
 ---
 
