@@ -5,19 +5,19 @@ Gwendal Martin & Guillaume Bouvier
 
 ---
 
-- [Team Formation Overview](#team-formation-overview)
-- [Research and Brainstorming](#research-and-brainstorming)
-  - [SCAMPER Application](#scamper-application)
-  - [Mind Mapping](#mind-mapping)
-- [Ideas Explored and Evaluated](#ideas-explored-and-evaluated)
-- [MVP Concept Selected](#mvp-concept-selected)
-- [Challenges and Opportunities](#challenges-and-opportunities)
-- [Mobile Export Challenges](#mobile-export-challenges)
-- [Conclusion](#conclusion)
+- 🧑‍🤝‍🧑 [Team Formation Overview](#team-formation-overview)
+- 🧠 [Research and Brainstorming](#research-and-brainstorming)
+  - 🔁 [SCAMPER Application](#scamper-application)
+  - 🧭 [Mind Mapping](#mind-mapping)
+- 💡 [Ideas Explored and Evaluated](#ideas-explored-and-evaluated)
+- 🎯 [MVP Concept Selected](#mvp-concept-selected)
+- 🚧 [Challenges and Opportunities](#challenges-and-opportunities)
+- 📱 [Mobile Export Challenges](#mobile-export-challenges)
+- 📄 [Conclusion](#conclusion)
 
 ---
 
-## 🧑‍🤝‍🧑 Team Formation Overview
+## Team Formation Overview
 
 From the outset, Guillaume and I discovered a shared vision and complementary strengths, fostering a collaborative and innovative environment. Our mutual enthusiasm for blending fitness with gamification set the tone for our project.
 
@@ -28,11 +28,11 @@ We established regular meetings and utilized tools like **Google Docs** and **Di
 
 ---
 
-## 🧠 Research and Brainstorming
+## Research and Brainstorming
 
 Our ideation process was enriched by employing the **SCAMPER technique** and **Mind Mapping**, which allowed us to explore various dimensions of potential ideas.
 
-### 🔁 SCAMPER Application:
+### SCAMPER Application:
 
 - **Substitute**: Replacing traditional workout tracking with RPG-style quests.  
 - **Combine**: Merging fitness routines with gaming elements to enhance user engagement.  
@@ -42,7 +42,7 @@ Our ideation process was enriched by employing the **SCAMPER technique** and **M
 - **Eliminate**: Removing monotonous workout logs in favor of interactive challenges.  
 - **Reverse**: Shifting the perspective from fitness as a chore to an adventurous journey.
 
-### 🧭 Mind Mapping:
+### Mind Mapping:
 
 We created a central node labeled **“Gamified Fitness App”** and branched out into categories such as:
 - User Engagement  
@@ -54,7 +54,7 @@ This visual representation helped us identify connections and prioritize feature
 
 ---
 
-## 💡 Ideas Explored and Evaluated
+## Ideas Explored and Evaluated
 
 ### 1. Gamified Fitness App with Quests  
 - **Strengths**: High user engagement, innovative approach  
@@ -78,7 +78,7 @@ This visual representation helped us identify connections and prioritize feature
 
 ---
 
-## 🎯 MVP Concept Selected
+## MVP Concept Selected
 
 **Chosen Idea**: *Gamified Fitness App with Quests*
 
@@ -99,7 +99,7 @@ Individuals aged **18–35** who are interested in fitness and gaming, seeking a
 
 ---
 
-## 🚧 Challenges and Opportunities
+## Challenges and Opportunities
 
 ### Challenges:
 - Ensuring the game elements enhance rather than distract from fitness goals  
@@ -111,7 +111,7 @@ Individuals aged **18–35** who are interested in fitness and gaming, seeking a
 
 ---
 
-## 📱 Mobile Export Challenges
+## Mobile Export Challenges
 
 During development, we encountered difficulties exporting the application to mobile platforms, particularly regarding:
 - Performance optimization  
@@ -123,7 +123,7 @@ We would greatly appreciate any **advice or strategies from Kevin Pelissard** on
 
 ---
 
-## 📄 Conclusion
+## Conclusion
 
 Our collaborative efforts have led to the development of a **promising MVP** that merges fitness and gaming to promote a healthier lifestyle. We are committed to refining this concept and overcoming technical challenges to deliver an engaging and effective application.
 
@@ -132,23 +132,23 @@ Our collaborative efforts have led to the development of a **promising MVP** tha
 
 ---
 
-- [Project Purpose and Objectives](#project-purpose-and-objectives)
-  - [Purpose](#purpose)
-  - [Objectives](#objectives)
-- [Stakeholders and Team Roles](#stakeholders-and-team-roles)
-  - [Internal](#internal)
-  - [External](#external)
-- [Project Scope](#project-scope)
-  - [In-Scope](#in-scope)
-  - [Out-of-Scope](#out-of-scope)
-- [Project Risks and Mitigation Strategies](#project-risks-and-mitigation-strategies)
-- [High-Level Project Plan](#high-level-project-plan)
-  - [Timeline Overview](#timeline-overview)
-  - [Key Considerations for Each Stage](#key-considerations-for-each-stage)
+- 🎯 [Project Purpose and Objectives](#project-purpose-and-objectives)
+  - 📌 [Purpose](#purpose)
+  - 🎯 [Objectives](#objectives)
+- 📋 [Stakeholders and Team Roles](#stakeholders-and-team-roles)
+  - 👥 [Internal](#internal)
+  - 🌐 [External](#external)
+- 🛠️ [Project Scope](#project-scope)
+  - ✅ [In-Scope](#in-scope)
+  - ❌ [Out-of-Scope](#out-of-scope)
+- ⚠️ [Project Risks and Mitigation Strategies](#project-risks-and-mitigation-strategies)
+- 🗓️ [High-Level Project Plan](#high-level-project-plan)
+  - 📅 [Timeline Overview](#timeline-overview)
+  - 📌 [Key Considerations for Each Stage](#key-considerations-for-each-stage)
 
   ---
-  
-## 🎯 Project Purpose and Objectives
+
+## Project Purpose and Objectives
 
 ### Purpose:
 In today’s digital world, maintaining a regular fitness routine is a challenge for many, often due to a lack of motivation, routine fatigue, or the absence of immediate, satisfying rewards. Our project addresses this by blending physical activity with the engaging elements of RPG (Role-Playing Game) mechanics, creating a gamified experience that makes fitness more fun, immersive, and sustainable. The idea is to shift fitness from being a chore to becoming a daily adventure. Through this MVP, we aim to encourage healthier habits, promote regular movement, and keep users committed over the long term by offering them meaningful, game-like progression tied to real-world exercise.
@@ -161,7 +161,7 @@ In today’s digital world, maintaining a regular fitness routine is a challenge
 
 ---
 
-## 📋 Stakeholders and Team Roles
+## Stakeholders and Team Roles
 
 ### Stakeholders
 
@@ -181,7 +181,7 @@ In today’s digital world, maintaining a regular fitness routine is a challenge
 
 ---
 
-## 🛠️ Project Scope
+## Project Scope
 
 ### Purpose:
 Define the core features and deliverables that will be included in the MVP (In-Scope) and outline the elements that are explicitly excluded to keep the focus on delivering a functional, engaging application (Out-of-Scope).
@@ -202,7 +202,7 @@ Define the core features and deliverables that will be included in the MVP (In-S
 
 ---
 
-## ⚠️ Project Risks and Mitigation Strategies
+## Project Risks and Mitigation Strategies
 
 | **Risk** | **Mitigation Strategy** |
 |---------|--------------------------|
@@ -217,7 +217,7 @@ Define the core features and deliverables that will be included in the MVP (In-S
 
 ---
 
-## 🗓️ High-Level Project Plan
+## High-Level Project Plan
 
 ### Purpose:
 Outline the major phases and milestones of the project, ensuring clear progress tracking.
