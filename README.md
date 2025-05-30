@@ -286,7 +286,7 @@ Welcome to **PixelPump**, a gamified fitness app where users complete daily and 
 ## 📌 Table of Contents
 
 - [🚀 Objective](#objective)
-- [✅ Prioritized User Stories (MoSCoW)](#prioritized-user-stories-moscow)
+- [✅ Prioritized User Stories (MoSCoW)](#prioritized-user-stories-and-Mockup-Moscow)
 - [📡 API Documentation](#api-documentation)
 - [💻 Front-End Components](#front-end-components)
 - [📊 UML / Database Diagrams](#uml--database-diagrams)
@@ -301,7 +301,7 @@ To offer an engaging fitness experience through gamification elements such as qu
 
 ---
 
-## Prioritized User Stories (MoSCoW)
+## Prioritized User Stories and Mockup (MoSCoW)
 
 ### 🎯 Must Have
 
@@ -329,6 +329,10 @@ To offer an engaging fitness experience through gamification elements such as qu
 - Advanced analytics (VO2 max, HRV)
 
 ---
+
+## Mockups 
+
+![Alt Text](PixelPump.png)
 
 ## API Documentation
 
