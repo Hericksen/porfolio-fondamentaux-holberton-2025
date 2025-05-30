@@ -5,6 +5,10 @@ Gwendal Martin & Guillaume Bouvier
 
 ---
 
+## 📌 Table of Contents – Stage 1 Report 
+
+---
+
 - 🧑‍🤝‍🧑 [Team Formation Overview](#team-formation-overview)
 - 🧠 [Research and Brainstorming](#research-and-brainstorming)
   - 🔁 [SCAMPER Application](#scamper-application)
@@ -129,6 +133,10 @@ Our collaborative efforts have led to the development of a **promising MVP** tha
 
 
 # 📘 Portfolio Project - Project Charter Development (Stage 2) (Completed)
+
+---
+
+## 📌 Table of Contents – Stage 2: Project Charter
 
 ---
 
