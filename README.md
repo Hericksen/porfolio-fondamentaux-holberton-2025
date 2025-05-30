@@ -5,6 +5,18 @@ Gwendal Martin & Guillaume Bouvier
 
 ---
 
+- [Team Formation Overview](#team-formation-overview)
+- [Research and Brainstorming](#research-and-brainstorming)
+  - [SCAMPER Application](#scamper-application)
+  - [Mind Mapping](#mind-mapping)
+- [Ideas Explored and Evaluated](#ideas-explored-and-evaluated)
+- [MVP Concept Selected](#mvp-concept-selected)
+- [Challenges and Opportunities](#challenges-and-opportunities)
+- [Mobile Export Challenges](#mobile-export-challenges)
+- [Conclusion](#conclusion)
+
+---
+
 ## 🧑‍🤝‍🧑 Team Formation Overview
 
 From the outset, Guillaume and I discovered a shared vision and complementary strengths, fostering a collaborative and innovative environment. Our mutual enthusiasm for blending fitness with gamification set the tone for our project.
@@ -120,6 +132,22 @@ Our collaborative efforts have led to the development of a **promising MVP** tha
 
 ---
 
+- [Project Purpose and Objectives](#project-purpose-and-objectives)
+  - [Purpose](#purpose)
+  - [Objectives](#objectives)
+- [Stakeholders and Team Roles](#stakeholders-and-team-roles)
+  - [Internal](#internal)
+  - [External](#external)
+- [Project Scope](#project-scope)
+  - [In-Scope](#in-scope)
+  - [Out-of-Scope](#out-of-scope)
+- [Project Risks and Mitigation Strategies](#project-risks-and-mitigation-strategies)
+- [High-Level Project Plan](#high-level-project-plan)
+  - [Timeline Overview](#timeline-overview)
+  - [Key Considerations for Each Stage](#key-considerations-for-each-stage)
+
+  ---
+  
 ## 🎯 Project Purpose and Objectives
 
 ### Purpose:
