@@ -1,4 +1,3 @@
-
 # 🏋️‍♀️ PixelPump – Gamified Fitness App
 
 Welcome to **PixelPump**, a gamified fitness app where users complete daily and weekly quests to gain experience, unlock badges, and customize their avatar. This document summarizes the functional requirements, technical architecture, and development practices for the project.
@@ -7,13 +6,13 @@ Welcome to **PixelPump**, a gamified fitness app where users complete daily and 
 
 ## 📌 Table of Contents
 
-- [🚀 Objective](#🚀-objective)
-- [✅ Prioritized User Stories (MoSCoW)](#✅-prioritized-user-stories-moscow)
-- [📡 API Documentation](#📡-api-documentation)
-- [💻 Front-End Components](#💻-front-end-components)
-- [📊 UML / Database Diagrams](#📊-uml--database-diagrams)
-- [🧬 SCM and QA Strategy](#🧬-scm-and-qa-strategy)
-- [📦 Tech Stack](#📦-tech-stack)
+- [🚀 Objective](#objective)
+- [✅ Prioritized User Stories (MoSCoW)](#prioritized-user-stories-moscow)
+- [📡 API Documentation](#api-documentation)
+- [💻 Front-End Components](#front-end-components)
+- [📊 UML / Database Diagrams](#uml--database-diagrams)
+- [🧬 SCM and QA Strategy](#scm-and-qa-strategy)
+- [📦 Tech Stack](#tech-stack)
 
 ---
 
