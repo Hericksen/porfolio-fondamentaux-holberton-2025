@@ -3,20 +3,45 @@ const sequelize = require('../config/db');
 
 const User = sequelize.define('User', {
   id: {
-    type: DataTypes.INTEGER,
-    autoIncrement: true,
+    type: DataTypes.UUID,
+    defaultValue: DataTypes.UUIDV4,
     primaryKey: true
   },
-  name: {
+  email: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
+    unique: true
   },
-  bio: {
-    type: DataTypes.TEXT
+  password_hash: {
+    type: DataTypes.TEXT,
+    allowNull: false
+  }, 
+  username: {
+    type: DataTypes.STRING,
+    allowNull: false,
+    unique: true
+  },
+  xp: {
+    type: DataTypes.INTEGER,
+    defaultValue: 0
+  },
+  level: {
+    type: DataTypes.INTEGER,
+    defaultValue: 1
+  },
+  avatar: {
+    type: DataTypes.JSON
+  },
+  created_at: {
+    type: DataTypes.DATE,
+    defaultValue: DataTypes.NOW
+  },
+  last_login: {
+    type: DataTypes.DATE
   }
 }, {
-  tableName: 'users', // nom explicite dans PostgreSQL
-  timestamps: true    // ajoute createdAt / updatedAt
+  tableName: 'users',
+  timestamps: false
 });
 
 module.exports = User;
