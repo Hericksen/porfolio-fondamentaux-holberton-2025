@@ -516,4 +516,3 @@ erDiagram
 
 ---
 
-JE MAPPEL GUILLAUME
