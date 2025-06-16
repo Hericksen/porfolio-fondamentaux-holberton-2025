@@ -1,8 +1,14 @@
 const User = require('../models/User');
+const Project = require('../models/Project');
+const bcrypt = require('bcrypt');
 
 class UserService {
   async createUser(data) {
-    return await User.create(data);
+    const hashedPassword = await bcrypt.hash(data.password, 10);
+    return await User.create({
+      ...data,
+      password_hash: hashedPassword
+    });
   }
 
   async getAllUsers() {
@@ -24,6 +30,11 @@ class UserService {
     if (!user) return null;
     await user.destroy();
     return true;
+  }
+
+  async getUserProjects(userId) {
+    const user = await User.findByPk(userId, { include: [Project] });
+    return user ? user.Projects : null;
   }
 }
 
