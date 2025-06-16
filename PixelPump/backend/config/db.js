@@ -1,6 +1,5 @@
 const { Sequelize } = require('sequelize');
 
-é
 const DB_NAME = 'portfolio';
 const DB_USER = 'postgres'; // ou ton utilisateur PostgreSQL
 const DB_PASS = 'mdp123'; // remplace par ton mot de passe réel
