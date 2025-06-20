@@ -1,5 +1,7 @@
 const jwt = require('jsonwebtoken');
-const JWT_SECRET = 'vraie-cle-secrete-a-changer';
+require('dotenv').config();
+
+const JWT_SECRET = process.env.JWT_SECRET || 'vraie-cle-secrete-a-changer';
 
 function authMiddleware(req, res, next) {
   const authHeader = req.headers.authorization;
